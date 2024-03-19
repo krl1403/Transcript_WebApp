@@ -1,0 +1,5 @@
+#textInput {
+    overflow-y: scroll; /* Enable vertical scrollbar */
+    -webkit-overflow-scrolling: touch; /* Enable momentum scrolling on iOS devices */
+  }
+  
