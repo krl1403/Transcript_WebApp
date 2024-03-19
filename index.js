@@ -33,6 +33,7 @@ function copyText() {
       .then(() => {
         console.log("Text copied to clipboard");
         input.value = "";
+        input.readOnly = false;
         button.disabled = false;
       })
       .catch((error) => {
