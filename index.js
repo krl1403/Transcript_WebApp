@@ -39,4 +39,4 @@ function copyText() {
       .catch((error) => {
         console.error("Error copying text:", error);
       });
-  }
+}
