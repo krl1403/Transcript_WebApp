@@ -40,3 +40,7 @@ function copyText() {
         console.error("Error copying text:", error);
       });
 }
+
+document.getElementById("redirectButton").addEventListener("click", function() {
+  window.location.href = "landipage.html"; 
+});
