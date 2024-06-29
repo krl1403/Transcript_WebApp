@@ -42,6 +42,6 @@ function copyText() {
 }
 
 document.getElementById("redirectButton").addEventListener("click", function() {
-  window.location.href = "landipage.html"; 
+  window.location.href = "https://sanasyt1403.github.io/kalandian/"; 
 });
 
