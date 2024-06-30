@@ -5,7 +5,7 @@ function convertText()
 
     if (input.value === "")
     {
-        alert("Input your transcript first.");
+        alert("Input mo muna yung transcript be");
     }
     else
     {
@@ -31,13 +31,13 @@ function copyText() {
   
     navigator.clipboard.writeText(input.value)
       .then(() => {
-        console.log("Text copied to clipboard");
+        console.log("Ayan na copy na, paste mo na lang sa ano mo. oo");
         input.value = "";
         input.readOnly = false;
         button.disabled = false;
       })
       .catch((error) => {
-        console.error("Error copying text:", error);
+        console.error("Naku ayaw mag copyyy, try mo na lang ulitt. Ito yung error =>", error);
       });
 }
 
