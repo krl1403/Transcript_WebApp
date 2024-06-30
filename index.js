@@ -41,7 +41,18 @@ function copyText() {
       });
 }
 
-document.getElementById("redirectButton").addEventListener("click", function() {
-  window.location.href = "https://sanasyt1403.github.io/kalandian/"; 
-});
+let count = 0;
+const btn = document.getElementById("redirectButton");
 
+btn.addEventListener("click", function() {
+  if (count == 0) {
+    alert("hiya aq, next time na pala")
+    count++;
+    btn.innerHTML = "Charot, gew pindot";
+    this.classList.remove("btn-success");
+    this.classList.add("btn-danger");
+  }
+  else {
+    window.location.href = "https://sanasyt1403.github.io/kalandian/"; 
+  }
+});
